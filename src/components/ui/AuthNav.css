@@ -1,0 +1,42 @@
+/* Auth navigation styling */
+.auth-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-loading {
+    color: #cccccc;
+    font-size: 14px;
+  }
+  
+  /* Login/Logout button styling */
+  .login-button, .logout-button {
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .login-button:hover, .logout-button:hover {
+    background-color: black;
+    color: #ffffff;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .user-name {
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 10px;
+  }
